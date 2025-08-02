@@ -1,6 +1,6 @@
 # Does Domain-Specific Retrieval Augmented Generation Help LLMs Answer Consumer Health Questions?
 
-This repo contains the code for the paper _Does Domain-Specific Retrieval Augmented Generation Help LLMs Answer Consumer Health Questions?_.
+This repo contains the code for the paper _Does Domain-Specific Retrieval Augmented Generation Help LLMs Answer Consumer Health Questions?_
 
 ## Requirements
 
