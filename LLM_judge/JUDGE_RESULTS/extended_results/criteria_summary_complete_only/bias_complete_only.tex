@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{llccc}
+\toprule
+Model & Approach & Mean & Std Dev & Count \\
+\midrule
+Llama-8B & RAG & -0.17 & 0.37 & 614 \\
+Llama-70B & RAG & -0.04 & 0.20 & 712 \\
+Mixtral-8x7B & RAG & -0.06 & 0.23 & 721 \\
+Meditron-70B & RAG & -0.40 & 0.49 & 667 \\
+Llama-8B & vanilla & -0.04 & 0.19 & 651 \\
+Llama-70B & vanilla & -0.02 & 0.14 & 639 \\
+Mixtral-8x7B & vanilla & -0.06 & 0.24 & 705 \\
+Meditron-70B & vanilla & -0.32 & 0.47 & 814 \\
+\bottomrule
+\end{tabular}
+\caption{Bias Scores - Only complete evaluations}
+\label{tab:bias_complete}
+\end{table}

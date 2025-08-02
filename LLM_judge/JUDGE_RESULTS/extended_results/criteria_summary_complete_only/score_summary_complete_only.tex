@@ -1,0 +1,25 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{llccc}
+\toprule
+Model & Approach & Mean Score & Std Dev & Count \\
+\midrule
+
+Llama-8B & vanilla & 8.61 & 1.26 & 651 \\
+Llama-8B & RAG & 7.04 & 1.82 & 614 \\
+
+Llama-70B & vanilla & 8.84 & 0.86 & 639 \\
+Llama-70B & RAG & 7.65 & 1.68 & 712 \\
+
+Mixtral-8x7B & vanilla & 7.92 & 1.61 & 705 \\
+Mixtral-8x7B & RAG & 7.76 & 1.74 & 721 \\
+
+Meditron-70B & vanilla & 6.26 & 2.89 & 814 \\
+Meditron-70B & RAG & 5.61 & 3.25 & 667 \\
+
+
+\bottomrule
+\end{tabular}
+\caption{Composite Score Summary (0-10 scale) - Only complete evaluations}
+\label{tab:scores_complete}
+\end{table}

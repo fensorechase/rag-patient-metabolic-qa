@@ -1,0 +1,65 @@
+Model,Approach,Criterion,Count,Mean,Std,Min,Max
+Llama-8B,RAG,Scientific Consensus,614,0.26,0.46,-1.0,1.0
+Llama-8B,RAG,Inappropriate Content,614,-0.08,0.32,-2.0,0.0
+Llama-8B,RAG,Missing Content,614,-1.72,0.46,-2.0,0.0
+Llama-8B,RAG,Extent of Harm,614,-0.23,0.62,-2.0,0.0
+Llama-8B,RAG,Likelihood of Harm,614,-0.23,0.62,-2.0,0.0
+Llama-8B,RAG,Bias,614,-0.17,0.37,-1.0,0.0
+Llama-8B,RAG,Empathy,614,1.02,0.72,0.0,2.0
+Llama-8B,RAG,Grammaticality,614,1.0,0.0,1.0,1.0
+Llama-70B,RAG,Scientific Consensus,712,0.58,0.5,-1.0,1.0
+Llama-70B,RAG,Inappropriate Content,712,-0.03,0.2,-2.0,0.0
+Llama-70B,RAG,Missing Content,712,-1.31,0.63,-2.0,0.0
+Llama-70B,RAG,Extent of Harm,712,-0.13,0.47,-2.0,0.0
+Llama-70B,RAG,Likelihood of Harm,712,-0.13,0.47,-2.0,0.0
+Llama-70B,RAG,Bias,712,-0.04,0.2,-1.0,0.0
+Llama-70B,RAG,Empathy,712,0.78,0.72,0.0,2.0
+Llama-70B,RAG,Grammaticality,712,1.0,0.0,1.0,1.0
+Mixtral-8x7B,RAG,Scientific Consensus,721,0.64,0.53,-1.0,1.0
+Mixtral-8x7B,RAG,Inappropriate Content,721,-0.04,0.23,-2.0,0.0
+Mixtral-8x7B,RAG,Missing Content,721,-1.24,0.61,-2.0,0.0
+Mixtral-8x7B,RAG,Extent of Harm,721,-0.13,0.46,-2.0,0.0
+Mixtral-8x7B,RAG,Likelihood of Harm,721,-0.13,0.46,-2.0,0.0
+Mixtral-8x7B,RAG,Bias,721,-0.06,0.23,-1.0,0.0
+Mixtral-8x7B,RAG,Empathy,721,0.83,0.69,0.0,2.0
+Mixtral-8x7B,RAG,Grammaticality,721,1.0,0.0,1.0,1.0
+Meditron-70B,RAG,Scientific Consensus,667,0.3,0.68,-1.0,1.0
+Meditron-70B,RAG,Inappropriate Content,667,-0.6,0.89,-2.0,0.0
+Meditron-70B,RAG,Missing Content,667,-1.54,0.56,-2.0,0.0
+Meditron-70B,RAG,Extent of Harm,667,-0.7,0.94,-2.0,0.0
+Meditron-70B,RAG,Likelihood of Harm,667,-0.75,0.94,-2.0,0.0
+Meditron-70B,RAG,Bias,667,-0.4,0.49,-1.0,0.0
+Meditron-70B,RAG,Empathy,667,0.58,0.7,0.0,2.0
+Meditron-70B,RAG,Grammaticality,667,0.98,0.15,0.0,1.0
+Llama-8B,vanilla,Scientific Consensus,651,0.9,0.31,-1.0,1.0
+Llama-8B,vanilla,Inappropriate Content,651,-0.05,0.27,-2.0,0.0
+Llama-8B,vanilla,Missing Content,651,-1.04,0.22,-2.0,0.0
+Llama-8B,vanilla,Extent of Harm,651,-0.09,0.37,-2.0,0.0
+Llama-8B,vanilla,Likelihood of Harm,651,-0.09,0.37,-2.0,0.0
+Llama-8B,vanilla,Bias,651,-0.04,0.19,-1.0,0.0
+Llama-8B,vanilla,Empathy,651,1.47,0.56,0.0,2.0
+Llama-8B,vanilla,Grammaticality,651,1.0,0.0,1.0,1.0
+Llama-70B,vanilla,Scientific Consensus,639,0.95,0.23,-1.0,1.0
+Llama-70B,vanilla,Inappropriate Content,639,-0.02,0.13,-1.0,0.0
+Llama-70B,vanilla,Missing Content,639,-1.01,0.18,-2.0,0.0
+Llama-70B,vanilla,Extent of Harm,639,-0.05,0.25,-2.0,0.0
+Llama-70B,vanilla,Likelihood of Harm,639,-0.05,0.25,-2.0,0.0
+Llama-70B,vanilla,Bias,639,-0.02,0.14,-1.0,0.0
+Llama-70B,vanilla,Empathy,639,1.59,0.52,0.0,2.0
+Llama-70B,vanilla,Grammaticality,639,1.0,0.04,0.0,1.0
+Mixtral-8x7B,vanilla,Scientific Consensus,705,0.72,0.48,-1.0,1.0
+Mixtral-8x7B,vanilla,Inappropriate Content,705,-0.05,0.25,-2.0,0.0
+Mixtral-8x7B,vanilla,Missing Content,705,-1.2,0.43,-2.0,0.0
+Mixtral-8x7B,vanilla,Extent of Harm,705,-0.15,0.47,-2.0,0.0
+Mixtral-8x7B,vanilla,Likelihood of Harm,705,-0.15,0.47,-2.0,0.0
+Mixtral-8x7B,vanilla,Bias,705,-0.06,0.24,-1.0,0.0
+Mixtral-8x7B,vanilla,Empathy,705,0.98,0.61,0.0,2.0
+Mixtral-8x7B,vanilla,Grammaticality,705,1.0,0.05,0.0,1.0
+Meditron-70B,vanilla,Scientific Consensus,814,0.3,0.65,-1.0,1.0
+Meditron-70B,vanilla,Inappropriate Content,814,-0.43,0.82,-2.0,0.0
+Meditron-70B,vanilla,Missing Content,814,-1.57,0.51,-2.0,0.0
+Meditron-70B,vanilla,Extent of Harm,814,-0.45,0.82,-2.0,0.0
+Meditron-70B,vanilla,Likelihood of Harm,814,-0.48,0.83,-2.0,0.0
+Meditron-70B,vanilla,Bias,814,-0.32,0.47,-1.0,0.0
+Meditron-70B,vanilla,Empathy,814,0.71,0.8,0.0,2.0
+Meditron-70B,vanilla,Grammaticality,814,1.0,0.06,0.0,1.0
