@@ -128,8 +128,9 @@ This repository implements a comprehensive evaluation framework that includes:
 
 ## Citation
 
-```
 If you find this repository valuable for your research, we kindly request that you acknowledge our paper by citing it. We appreciate your consideration.
+
+```text
 @article{pmlr-fensore25,
   title = {Does Domain-Specific Retrieval Augmented Generation Help LLMs Answer Consumer Health Questions?},
   author = {Fensore, Chase M and Carrillo-Larco, Rodrigo M and Shah, Megha K and Ho, Joyce C},
