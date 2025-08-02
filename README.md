@@ -96,6 +96,7 @@ Given blinded clinician annotations of LLM-only and RAG-generated answers (n=66)
 
 ## Repository Structure
 
+```text
 ├── ANALYSIS/
 │   └── RAG_total/...
 ├── LLM_judge/
@@ -113,6 +114,7 @@ Given blinded clinician annotations of LLM-only and RAG-generated answers (n=66)
 │   └── pull_docs_total.py
 ├── medquad_results_vanilla_noRAG/...
 └── requirements.txt
+```
 
 ## Evaluation Framework
 
